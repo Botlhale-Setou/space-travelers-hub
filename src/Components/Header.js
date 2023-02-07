@@ -1,16 +1,17 @@
 import React from 'react';
 import Nav from './Nav';
-import logo from '.../logo.png';
-
+import logo from '../assets/logo.png';
 
 const Header = () => {
   return (
-    <div>
-        <img src={ logo }/>
+    <div className="header">
+      <div className="headerMain">
+        <img src={logo} />
         <h1>Space Travelers' Hub</h1>
-        <Nav />
+      </div>
+      <Nav />
     </div>
-  )
+  );
 };
 
 export default Header
