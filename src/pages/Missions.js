@@ -52,7 +52,6 @@ function Missions() {
             <td>{item.description}</td>
             <td className="text-middle text-center">
               <badge
-                bg={item.reserved ? 'primary' : 'secondary'}
                 className={item.reserved ? 'yReserve' : 'nReserve'}
               >
                 {item.reserved ? 'Active Member' : 'Not A Member'}
