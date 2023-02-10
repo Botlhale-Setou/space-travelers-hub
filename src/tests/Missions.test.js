@@ -1,10 +1,10 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
-import store from '../Redux/configureStore';
+import store from '../Redux/ConfigureStore';
 import '@testing-library/jest-dom';
 import Missions from '../pages/Missions';
-import MissionsSlice, { updateMission } from '../Redux/Missions/missionsSlice';
+import MissionsSlice, { updateMission } from '../Redux/Missions/MissionsSlice';
 
 describe('Missions page', () => {
   test('renders correctly', () => {
