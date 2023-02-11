@@ -19,7 +19,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
+  - [Testing](#testing)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -82,7 +82,7 @@ Install all dependencies with:
   npm i
 ```
 
-### Testing
+# Testing
 
 To run the tests in a development server, execute the following command:
 
