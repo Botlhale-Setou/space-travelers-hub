@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions page renders correctly 1`] = `
+<table
+  className="tableMission table table-sm table-striped table-bordered table-hover"
+>
+  <thead>
+    <tr>
+      <th>
+        Mission
+      </th>
+      <th>
+        Description
+      </th>
+      <th
+        className="enlargeCol"
+      >
+        Status
+      </th>
+      <th
+        className="enlargeCol"
+      >
+         
+      </th>
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
