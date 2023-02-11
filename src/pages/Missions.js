@@ -51,11 +51,11 @@ function Missions() {
             <td>{item.name}</td>
             <td>{item.description}</td>
             <td className="text-middle text-center">
-              <badge
+              <Button
                 className={item.reserved ? 'yReserve' : 'nReserve'}
               >
                 {item.reserved ? 'Active Member' : 'Not A Member'}
-              </badge>
+              </Button>
             </td>
             <td className="text-middle text-center">
               <Button
