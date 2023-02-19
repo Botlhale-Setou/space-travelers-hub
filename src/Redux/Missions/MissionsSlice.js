@@ -17,7 +17,7 @@ export const fetchMissionData = createAsyncThunk(
       return response.data;
     }
     return [];
-  }
+  },
 );
 
 const reArrangeMission = (missions) => {
@@ -40,11 +40,9 @@ const missionsSlice = createSlice({
     updateMission(state, action) {
       return {
         ...state,
-        missions: state.missions.map((mission) =>
-          mission.id === action.payload
-            ? { ...mission, reserved: !mission.reserved }
-            : mission
-        ),
+        missions: state.missions.map((mission) => (mission.id === action.payload
+          ? { ...mission, reserved: !mission.reserved }
+          : mission)),
       };
     },
   },
