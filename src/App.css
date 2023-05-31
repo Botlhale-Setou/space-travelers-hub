@@ -90,6 +90,7 @@ body {
   color: white;
   border-radius: 5px;
   padding: 5px 13px;
+  height: 3.8rem;
 }
 
 .nReserve {
@@ -97,6 +98,7 @@ body {
   padding: 5px 13px;
   background-color: rgb(88, 88, 88);
   color: white;
+  height: 3.8rem;
 }
 
 .yReserve2 {
