@@ -34,7 +34,7 @@
 ## 🛠 Built With <a name="built-with"></a>
 - React
 - Redux
-- SpaceX API
+- The SpaceX API
 
 ### Key Features <a name="key-features"></a>
 
